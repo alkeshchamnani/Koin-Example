@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">KoinExample</string>
+    <string name="activity_list_task_logo_description">App Logo</string>
+    <!-- LoadingDialog!-->
+    <string name="dialog_loading_please_wait">please Wait</string>
+
+    <!-- LoadingDialog!-->
+    <string name="something_went_wrong">Something went wrong</string>
+
 </resources>

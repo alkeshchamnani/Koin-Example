@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_loading"
+    android:gravity="center_vertical|center_horizontal"
+    android:padding="20dp">
+
+    <ProgressBar
+        android:id="@+id/dialog_loading_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/dialog_loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_loading_progressbar"
+        android:layout_marginTop="5dp"
+        android:text="@string/dialog_loading_please_wait" />
+
+</RelativeLayout>
